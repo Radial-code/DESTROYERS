@@ -829,7 +829,9 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 25px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-
+  width: 100%;
+  max-width: 250px;
+  margin: 0 7px;
 }
 
 .buy-btn {
