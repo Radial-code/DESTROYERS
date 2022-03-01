@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&family=Playfair+Display:wght@500&display=swap");
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+.font-playfir {
+  font-family: "Playfair Display", serif;
 }
 :root {
   /*================================== FONT-SIZES ================================================ */
@@ -636,45 +639,6 @@ a {
     animation: mymove 0.9s;
     -webkit-animation-delay: 1.3s;
     animation-delay: 1.3s;
-    -webkit-transform: translateY(10px);
-    transform: translateY(10px);
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-
-  .mobile-view #overlay .left ul li:nth-child(6) {
-    -webkit-animation: mymove 0.9s;
-    animation: mymove 0.9s;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-    -webkit-transform: translateY(10px);
-    transform: translateY(10px);
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-
-  .mobile-view #overlay .left ul li:nth-child(7) {
-    -webkit-animation: mymove 0.9s;
-    animation: mymove 0.9s;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-    -webkit-transform: translateY(10px);
-    transform: translateY(10px);
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-
-  .mobile-view #overlay .left ul li:nth-child(8) {
-    -webkit-animation: mymove 0.9s;
-    animation: mymove 0.9s;
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
     -webkit-animation-iteration-count: 1;
