@@ -1,0 +1,242 @@
+:root {
+    --color-white: #ffffff;
+}
+
+.latest-card {
+    max-width: 362px;
+    margin: auto;
+    background-color: var(--color-white);
+    padding: 25px 20px;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.latest-card:hover {
+    transform: translateY(-7px);
+}
+
+.latest-news .slick-track,
+.comments-section .slick-track {
+    padding: 30px 0;
+}
+
+.latest-news .slick-next:before,
+.comments-section .slick-next:before {
+    background: url('../images/png/right-arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+}
+
+.latest-news .slick-prev:before,
+.comments-section .slick-prev:before {
+    background: url('../images/png/left-arrow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+}
+
+/* COMMENTS-SECTION */
+.comments-card {
+    background-color: var(--color-white);
+    max-width: 270px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: -3px 3px 4px 0px #00000033;
+    font-size: 12px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.comments-card:hover {
+    transform: translateY(-7px);
+}
+
+.comments-card p {
+    margin-bottom: 0;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.opacity-5 {
+    opacity: .5;
+}
+
+.mw-1200 {
+    max-width: 1200px;
+}
+
+/* NAV-TABS */
+.buy-now-btn {
+    background-color: transparent;
+    border: 1px solid #00000075;
+    opacity: 0.56;
+    border-radius: 30px;
+    font-size: var(--fs-xmd);
+    white-space: nowrap;
+    padding: 6px 20px 2px 20px;
+    font-weight: 600;
+}
+
+.buy-now-btn:hover {
+    opacity: 1;
+    border: 1px solid #000000;
+}
+
+.nav-tab-card {
+    padding: 18px;
+    border-radius: 25px;
+    border: 1px solid #0000000D;
+    box-shadow: -3px 3px 4px 0px #00000033;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-tab-card:hover {
+    transform: translateY(-7px);
+}
+
+.nav-tab-section .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--black);
+}
+
+.nav-tab-section .nav-link {
+    background: #00000021;
+    color: var(--black);
+    margin: 0 12px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 180px;
+    font-size: var(--fs-md);
+    font-weight: 500;
+
+}
+
+.nav-tab-section .nav {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+/* COMMUNITY */
+.community-section {
+    background: url('../images/png/community-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0px 4px 4px 0px #00000033;
+
+}
+
+.community-section img {
+    border-radius: 50%;
+}
+
+.svg-icon {
+    transition: all .3s ease-in-out;
+}
+
+.svg-icon:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER-SECTION */
+.footer-section {
+    background-color: #000000;
+    border-radius: 25px 25px 0 0;
+    color: white;
+}
+
+.input-btn {
+    border-radius: 25px;
+    background: #3F3F46;
+    max-width: 432px;
+    cursor: pointer;
+}
+
+.input-btn button {
+    border-radius: 0 25px 25px 0;
+    font-weight: 700;
+    width: 40%;
+    font-size: var(--fs-xmd);
+}
+
+.input-btn input {
+    color: var(--color-white);
+    padding: 8px 28px;
+    width: 60%;
+    font-size: var(--fs-xmd);
+}
+
+.input-btn input:focus {
+    outline: none;
+}
+
+.input-btn input::placeholder {
+    color: var(--color-white);
+    opacity: .5;
+}
+
+.footer-link {
+    color: var(--color-white);
+    opacity: .6;
+}
+
+.footer-link:hover {
+    opacity: 1;
+    color: var(--color-white);
+}
+
+.copy-right {
+    font-size: 12px;
+    opacity: .5;
+}
+
+/* BLACK-NFT-CARD-SECTION */
+.black-nft-card-1 {
+    background-image: url('../images/png/nft-card-1-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: -3px 3px 4px 0px #00000033;
+
+}
+
+.black-nft-card-2 {
+    background-image: url('../images/png/nft-card-2-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: -3px 3px 4px 0px #00000033;
+
+}
+
+.explore-more-btn {
+    background-color: var(--color-white);
+    border-radius: 25px;
+    padding: 5px 17px;
+    font-size: var(--fs-xmd);
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.explore-more-btn:hover {
+    transform: scale(1.1);
+}
