@@ -17,17 +17,20 @@
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- SLICK-LINE-8 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/images/png/nav-logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet" />
     <link rel="icon" sizes="16x16" href="./assets/images/svg/header-logo.svg" />
     <link rel="icon" sizes="32x32" href="./assets/images/png/logo.png" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/nav-tabs.css">
 
-    <title>DESTROYERS</title>
+    <title>DESTROYER</title>
 
 </head>
 
@@ -47,30 +50,30 @@
                                         <ul class="list-unstyled pt-5">
                                             <li class="py-lg-3 py-2 overflow-hidden">
                                                 <span class="d-inline-block section-1">
-                                                    <a href="#home" class="overlay-links text-white ">My Profile</a>
+                                                    <a href="#profile" class="overlay-links text-white ">My Profile</a>
                                                 </span>
                                             </li>
                                             <li class="py-lg-3 py-2 overflow-hidden">
                                                 <span class="d-inline-block section-2">
-                                                    <a href="#project" class="overlay-links text-white">Explore
+                                                    <a href="#explore" class="overlay-links text-white">Explore
                                                         us</a>
                                                 </span>
                                             </li>
                                             <li class="py-lg-3 py-2 overflow-hidden">
                                                 <span class="d-inline-block section-3">
-                                                    <a href="#utilities" class="overlay-links text-white">News
+                                                    <a href="#news" class="overlay-links text-white">News
                                                         to works</a>
                                                 </span>
                                             </li>
                                             <li class="py-lg-3 py-2 overflow-hidden">
                                                 <span class="d-inline-block section-4">
-                                                    <a href="#roadmap" class="overlay-links text-white">Activity
+                                                    <a href="#activity" class="overlay-links text-white">Activity
                                                         raffle</a>
                                                 </span>
                                             </li>
                                             <li class="py-lg-3 pb-4 overflow-hidden mt-3">
                                                 <span class="d-inline-block section-5 d-md-none">
-                                                    <button class="common-btn border-0 rounded-pill pt-2 px-4 text-white bg-color-black  text-white  
+                                                    <button class=" border-0 rounded-pill pt-2 px-4 text-white navbar-btn text-white  
                                                         align-items-center">
                                                         SIGN IN
                                                     </button>
@@ -96,16 +99,16 @@
                                 <div class="nav-items-wrap d-none d-xl-block d-flex ms-3">
                                     <ul class="nav-items-list list-unstyled align-items-center d-flex m-auto">
                                         <li class="n-item pe-3 nav-links-active">
-                                            <a href="#home" class="nav-links ">My Profile</a>
+                                            <a href="#profile" class="nav-links ">My Profile</a>
                                         </li>
                                         <li class="n-item px-xl-4 px-2 px-xxl-2">
-                                            <a class="nav-links  opacity-07" href="#about">Explore</a>
+                                            <a class="nav-links  opacity-07" href="#explore">Explore</a>
                                         </li>
                                         <li class="n-item px-xl-4 px-2">
-                                            <a href="#how-to" class="nav-links  opacity-07">News</a>
+                                            <a href="#news" class="nav-links  opacity-07">News</a>
                                         </li>
                                         <li class="n-item ps-4 me-4 pe-5">
-                                            <a href="#enter" class="nav-links  opacity-07">Activity</a>
+                                            <a href="#activity" class="nav-links  opacity-07">Activity</a>
                                         </li>
                                         <div class="nav-quantum d-flex justify-content-between align-items-center">
                                             <div class="n-item px-xxl-3   d-flex align-items-center">
@@ -139,8 +142,8 @@
     </section>
     <!-------------- NAVBAR END  ----------------------->
     <!--------------  HERO SECTION START ----------------------->
-    <section class="hero-section mt-1 mx-4">
-        <div class="container pb-3">
+    <section class="hero-section mt-1 mx-4  overflow-x-hidden">
+        <div class="container pb-3" data-aos="zoom-in" data-aos-duration="2000">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <h1 class="heading text-white font-playfir hero-heading pt-5">"Best New NFT to look out for"</h1>
@@ -149,24 +152,24 @@
                         labore et dolore magna aliqua.
                     </p>
                 </div>
-                <div class="col-8 col-sm-5 col-lg-3 mt-lg-5 mt-4 pb-4 ">
-                    <img class="w-100" src="./assets/images/png/hero.png" alt="">
+                <div class="col-8 col-sm-5 col-lg-3 mt-lg-5 mt-4 pb-4 text-center ">
+                    <img class="w-100 hero-img" src="./assets/images/png/hero.png" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!--------------  HERO SECTION ENDS ----------------------->
     <!--------------  NFT SECTION START ----------------------->
-    <section>
-        <div class="container">
+    <section class=" overflow-x-hidden">
+        <div class="container" id="profile">
             <div class="row justify-content-center justify-content-xl-between">
                 <div class="col-12 mt-5 pt-4">
-                    <h1 class="min-heading">
+                    <h1 class="min-heading" data-aos="fade-up" data-aos-duration="2000">
                         Top NFT to look out for in 2022
                     </h1>
                 </div>
                 <div class="col-12 px-0 d-flex flex-wrap justify-content-center">
-                    <div class="nft-card py-3 px-2 mt-4">
+                    <div class="nft-card py-3 px-2 mt-4" data-aos="fade-up" data-aos-duration="2000">
                         <img class="w-100 " src="./assets/images/png/nft.png" alt="img">
                         <h1 class="fs-md fw-bold my-2">
                             Bonorum Malorum
@@ -183,7 +186,7 @@
                             <button class="rounded-pill buy-now-btn pt-2 fs-xsm px-3">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="nft-card py-3 px-2 mt-4">
+                    <div class="nft-card py-3 px-2 mt-4" data-aos="fade-down" data-aos-duration="2000">
                         <img class="w-100 " src="./assets/images/png/nft-second.png" alt="img">
                         <h1 class="fs-md fw-bold my-2">
                             Bonorum Malorum
@@ -200,7 +203,7 @@
                             <button class="rounded-pill buy-now-btn pt-2 fs-xsm px-3">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="nft-card py-3 px-2 mt-4">
+                    <div class="nft-card py-3 px-2 mt-4" data-aos="fade-up" data-aos-duration="2000">
                         <img class="w-100 " src="./assets/images/png/nft-third.png" alt="img">
                         <h1 class="fs-md fw-bold my-2">
                             Bonorum Malorum
@@ -217,7 +220,7 @@
                             <button class="rounded-pill buy-now-btn pt-2 fs-xsm px-3">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="nft-card py-3 px-2 mt-4">
+                    <div class="nft-card py-3 px-2 mt-4" data-aos="fade-down" data-aos-duration="2000">
                         <img class="w-100 " src="./assets/images/png/nft-forth.png" alt="img">
                         <h1 class="fs-md fw-bold my-2">
                             Bonorum Malorum
@@ -234,7 +237,7 @@
                             <button class="rounded-pill buy-now-btn pt-2 fs-xsm px-3">BUY NOW</button>
                         </div>
                     </div>
-                    <div class="nft-card py-3 px-2 mt-4">
+                    <div class="nft-card py-3 px-2 mt-4" data-aos="fade-up" data-aos-duration="2000">
                         <img class="w-100 " src="./assets/images/png/nft-fifth.png" alt="img">
                         <h1 class="fs-md fw-bold my-2">
                             Bonorum Malorum
@@ -253,27 +256,28 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div class="container" id="explore">
             <div class="row mt-5 pt-4 ">
                 <div class="col-12">
-                    <h1 class="min-heading mb-5">
+                    <h1 class="min-heading mb-5" data-aos="fade-right" data-aos-duration="2000">
                         Explore top NFT
                     </h1>
                 </div>
                 <div class="col-12">
-                    <div class="explor-nft pb-sm-5">
-                        <div class="row mt-5 px-4">
-                            <div class="col-8 mx-auto col-lg-3">
-                                <img class="w-100" src="./assets/images/png/nft-text.png" alt="img">
+                    <div class="explor-nft pb-sm-3 mt-3" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="d-lg-flex mt-3 text-center text-lg-start px-4">
+                            <div class="w-lg-75 w-100 mx-auto ">
+                                <img class="w-100 nft-img" src="./assets/images/png/nft-text.png" alt="img">
                             </div>
-                            <div class="col-12 my-5 my-lg-0 col-lg-9 d-flex flex-column justify-content-center">
-                                <div class="ps-md-4 d-flex flex-column justify-content-center">
+                            <div class=" my-5 ps-4 ps-xxl-2  my-lg-0  d-flex flex-column justify-content-center">
+                                <div class=" d-flex flex-column justify-content-center">
 
 
-                                    <h1 class="middium-heading">
+                                    <h1 class="middium-heading mb-0">
                                         Bonorum Malorum
                                     </h1>
-                                    <p class="para text-black pe-md-4">
+                                    <p class="para text-black pe-md-4 mb-0">
                                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
@@ -300,19 +304,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="explor-nft mt-4 pb-sm-5">
-                        <div class="row mt-5 px-4">
-                            <div class="col-8 mx-auto col-lg-3">
-                                <img class="w-100" src="./assets/images/png/nft-text-second.png" alt="img">
+                    <div class="explor-nft pb-sm-3 mt-3" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="d-lg-flex mt-3 text-center text-lg-start px-4">
+                            <div class="w-lg-75 w-100 mx-auto ">
+                                <img class="w-100 nft-img" src="./assets/images/png/nft-text-second.png" alt="img">
                             </div>
-                            <div class="col-12 my-5 my-lg-0 col-lg-9 d-flex flex-column justify-content-center">
-                                <div class="ps-md-4 d-flex flex-column justify-content-center">
+                            <div class=" my-5 ps-4 ps-xxl-2 my-lg-0  d-flex flex-column justify-content-center">
+                                <div class=" d-flex flex-column justify-content-center">
 
 
-                                    <h1 class="middium-heading">
+                                    <h1 class="middium-heading mb-0">
                                         Bonorum Malorum
                                     </h1>
-                                    <p class="para text-black pe-md-4">
+                                    <p class="para text-black pe-md-4 mb-0">
                                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
@@ -339,26 +343,23 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="explor-nft mt-4 pb-sm-5">
-                        <div class="row mt-5 px-4">
-                            <div class="col-8 mx-auto col-lg-3">
-                                <img class="w-100" src="./assets/images/png/nft-text-third.png" alt="img">
+                    <div class="explor-nft pb-sm-3 mt-3" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="d-lg-flex mt-3 text-center text-lg-start px-4">
+                            <div class="w-lg-75 w-100 mx-auto ">
+                                <img class="w-100 nft-img" src="./assets/images/png/nft-text-third.png" alt="img">
                             </div>
-                            <div class="col-12 my-5 my-lg-0 col-lg-9 d-flex flex-column justify-content-center">
-                                <div class="ps-md-4 d-flex flex-column justify-content-center">
+                            <div class=" my-5 ps-4 ps-xxl-2 my-lg-0  d-flex flex-column justify-content-center">
+                                <div class=" d-flex flex-column justify-content-center">
 
 
-                                    <h1 class="middium-heading">
+                                    <h1 class="middium-heading mb-0">
                                         Bonorum Malorum
                                     </h1>
-                                    <p class="para text-black pe-md-4">
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor
+                                    <p class="para text-black pe-md-4 mb-0">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                        aute
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                         nulla
                                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -381,27 +382,23 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="explor-nft mt-4 pb-sm-5">
-                        <div class="row mt-5 px-4">
-                            <div class="col-8 mx-auto col-lg-3">
-                                <img class="w-100" src="./assets/images/png/nft-text-foth.png" alt="img">
+                    <div class="explor-nft pb-sm-3 mt-3" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="d-lg-flex mt-3 text-center text-lg-start px-4">
+                            <div class="w-lg-75 w-100 mx-auto ">
+                                <img class="w-100 nft-img" src="./assets/images/png/nft-text-foth.png" alt="img">
                             </div>
-                            <div class="col-12 my-5 my-lg-0 col-lg-9 d-flex flex-column justify-content-center">
-                                <div class="ps-md-4 d-flex flex-column justify-content-center">
+                            <div class=" my-5 ps-4 ps-xxl-2 my-lg-0  d-flex flex-column justify-content-center">
+                                <div class=" d-flex flex-column justify-content-center">
 
 
-                                    <h1 class="middium-heading">
+                                    <h1 class="middium-heading mb-0">
                                         Bonorum Malorum
                                     </h1>
-                                    <p class="para text-black pe-md-4">
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor
+                                    <p class="para text-black pe-md-4 mb-0">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                        aute
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                         nulla
                                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -424,26 +421,23 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="explor-nft mt-4 pb-sm-5">
-                        <div class="row mt-5 px-4">
-                            <div class="col-8 mx-auto col-lg-3">
-                                <img class="w-100" src="./assets/images/png/nft-text-fifth.png" alt="img">
+                    <div class="explor-nft pb-sm-3 mt-3" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="d-lg-flex mt-3 text-center text-lg-start px-4">
+                            <div class="w-lg-75 w-100 mx-auto ">
+                                <img class="w-100 nft-img" src="./assets/images/png/nft-text-fifth.png" alt="img">
                             </div>
-                            <div class="col-12 my-5 my-lg-0 col-lg-9 d-flex flex-column justify-content-center">
-                                <div class="ps-md-4 d-flex flex-column justify-content-center">
+                            <div class=" my-5 ps-4 ps-xxl-2 my-lg-0  d-flex flex-column justify-content-center">
+                                <div class=" d-flex flex-column justify-content-center">
 
 
-                                    <h1 class="middium-heading">
+                                    <h1 class="middium-heading mb-0">
                                         Bonorum Malorum
                                     </h1>
-                                    <p class="para text-black pe-md-4">
-                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor
+                                    <p class="para text-black pe-md-4 mb-0">
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                        aute
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                         irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                                         nulla
                                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -473,8 +467,8 @@
         </div>
     </section>
     <!--------------  NFT CAROUSEL START ------------------------>
-    <section>
-        <div class="container">
+    <section class=" overflow-x-hidden">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
             <div class="row mt-5 pt-4">
                 <div class="col-12">
                     <h1 class="min-heading">
@@ -508,8 +502,8 @@
     <!--------------  NFT CAROUSEL ENDS ------------------------>
 
     <!--======================================== NAV-TABS========================================-->
-    <section class="py-5 nav-tab-section mt-sm-4    ">
-        <div class="container">
+    <section class="py-5 nav-tab-section mt-sm-4   overflow-x-hidden  ">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000">
             <div class="row justify-content-center 4">
                 <div class="col-lg-8 col-12 text-center">
                     <h2 class="min-heading">
@@ -525,8 +519,8 @@
             </div>
         </div>
         <div class="d-flex flex-column align-items-center px-2 mt-4 pt-2">
-            <div class="nav  nav-pills me-3 justify-content-center mb-4" id="v-pills-tab" role="tablist"
-                aria-orientation="vertical">
+            <div class="nav  nav-pills me-3 justify-content-center mb-4" data-aos="fade-right" data-aos-duration="2000"
+                id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <button class="nav-link mb-3 active" id="v-pills-home-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                     aria-selected="true">Sport</button>
@@ -548,7 +542,8 @@
                     aria-labelledby="v-pills-home-tab">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#1
@@ -580,7 +575,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#2
@@ -612,7 +608,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#3
@@ -644,7 +641,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#4
@@ -676,7 +674,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#5
@@ -708,7 +707,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#6
@@ -740,7 +740,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#7
@@ -772,7 +773,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#8
@@ -804,7 +806,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#9
@@ -836,7 +839,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#10
@@ -868,7 +872,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#11
@@ -900,7 +905,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3">
+                            <div class="col-lg-3 col-sm-6 col-12 mt-4 pt-3" data-aos="flip-right"
+                                data-aos-duration="2000">
                                 <div class="nav-tab-card">
                                     <p class="fs-xmd fw-semibold mb-0 pb-1">
                                         Rank#12
@@ -2499,10 +2505,10 @@
         </div>
     </section>
     <!--======================================== BLACK-NFT-CARD-SECTION ========================================-->
-    <section class="py-5">
+    <section class="py-5  overflow-x-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 text-center mt-4">
+                <div class="col-lg-6 text-center mt-4" data-aos="fade-right" data-aos-duration="2000">
                     <div class="black-nft-card-1">
                         <h2 class="min-heading text-white">
                             Previous top nfts
@@ -2524,7 +2530,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center mt-4">
+                <div class="col-lg-6 text-center mt-4" data-aos="fade-left" data-aos-duration="2000">
                     <div class="black-nft-card-2">
                         <h2 class="min-heading text-white">
                             Upcoming top nfts
@@ -2550,14 +2556,14 @@
         </div>
     </section>
     <!--======================================== CAROUSEL-LATEST-NEWS ========================================-->
-    <section class="latest-news py-5">
-        <div class="container">
+    <section class="latest-news py-5  overflow-x-hidden" id="news">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
             <h2 class="min-heading text-center fw-bold">
                 Latest News
             </h2>
             <div class="slick-sliderrrr ">
                 <div class="mx-3">
-                    <div class="latest-card">
+                    <div class="latest-card mx-md-2 mx-auto mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/latest-img-1.png" alt="">
                         <p class="pt-3">
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -2567,7 +2573,7 @@
                     </div>
                 </div>
                 <div class="mx-3">
-                    <div class="latest-card">
+                    <div class="latest-card mx-md-2 mx-auto mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/latest-img-1.png" alt="">
                         <p class="pt-3">
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -2577,7 +2583,7 @@
                     </div>
                 </div>
                 <div class="mx-3">
-                    <div class="latest-card">
+                    <div class="latest-card mx-md-2 mx-auto mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/latest-img-1.png" alt="">
                         <p class="pt-3">
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -2587,7 +2593,7 @@
                     </div>
                 </div>
                 <div class="mx-3">
-                    <div class="latest-card">
+                    <div class="latest-card mx-md-2 mx-auto mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/latest-img-1.png" alt="">
                         <p class="pt-3">
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -2601,7 +2607,7 @@
         </div>
     </section>
     <!--======================================== JOIN-OUR-COMMUNITY ========================================-->
-    <section class="py-5">
+    <section class="py-5  overflow-x-hidden">
         <div class="container ">
             <div class="community-section mx-sm-3 ">
                 <div class="row justify-content-lg-around justify-content-center">
@@ -2675,14 +2681,14 @@
         </div>
     </section>
     <!--======================================== CAROUSEL-COMMENTS ========================================-->
-    <section class="comments-section py-5 mb-sm-4">
+    <section class="comments-section py-5 mb-sm-4  overflow-x-hidden" id="activity">
         <div class="container">
             <h2 class="min-heading fw-bold ps-sm-3 ms-sm-1">
                 Comments
             </h2>
             <div class="comments-slider">
                 <div class="mx-1">
-                    <div class="comments-card">
+                    <div class="comments-card mx-2 mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/comments-1.png" alt="">
                         <p class="opacity-5">
                             1 year ago . 2 comments
@@ -2694,7 +2700,7 @@
                     </div>
                 </div>
                 <div class="mx-1">
-                    <div class="comments-card">
+                    <div class="comments-card mx-2 mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/comments-2.png" alt="">
                         <p class="opacity-5">
                             1 year ago . 2 comments
@@ -2706,7 +2712,7 @@
                     </div>
                 </div>
                 <div class="mx-1">
-                    <div class="comments-card">
+                    <div class="comments-card mx-2 mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/comments-3.png" alt="">
                         <p class="opacity-5">
                             1 year ago . 2 comments
@@ -2718,7 +2724,7 @@
                     </div>
                 </div>
                 <div class="mx-1">
-                    <div class="comments-card">
+                    <div class="comments-card mx-2 mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/comments-4.png" alt="">
                         <p class="opacity-5">
                             1 year ago . 2 comments
@@ -2730,7 +2736,7 @@
                     </div>
                 </div>
                 <div class="mx-1">
-                    <div class="comments-card">
+                    <div class="comments-card mx-2 mx-xxl-0">
                         <img class="w-100 " src="./assets/images/png/comments-2.png" alt="">
                         <p class="opacity-5">
                             1 year ago . 2 comments
@@ -2746,10 +2752,11 @@
         </div>
     </section>
     <!--========================================FOOTER-SECTION========================================-->
-    <footer class="footer-section pt-4">
+    <footer class="footer-section pt-4 overflow-x-hidden">
         <div class="container py-4 ">
             <div class="row align-items-center pb-2">
-                <div class="col-xl-4 col-sm-6 col-12 order-1 order-lg-1 text-center text-sm-start mb-4 mb-sm-0">
+                <div
+                    class="col-xl-4 col-lg-3 col-sm-6 col-12 order-1 order-lg-1 text-center text-lg-start mb-4 mb-sm-0">
                     <a href=""> <img src="./assets/images/png/footer-img.png" alt=""></a>
                 </div>
                 <div class="col-xl-4 col-lg-5 col-12 mt-4 mt-lg-0  text-center order-3 order-lg-2">
@@ -2837,7 +2844,12 @@
     </footer>
 
 
-    <a href="#header" id="scroll" style="display: none"><span></span></a>
+    <!-- SCROLL TO TOP BUTTON  -->
+    <a href="#header" id="scroll-to-top"><span>
+            <svg width="26" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 14L10 9L5 14L3 13L10 6L17 13L15 14Z" fill="white" />
+            </svg>
+        </span></a>
 
     <!-- SLICK-link-js -->
     <!-- JQUERY-link-js -->
@@ -2859,14 +2871,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
         integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
 
     <!------------------------------ JAVASCRIPT-CODE ------------------------------------------->
-    <!-- <script>
+    <script>
         AOS.init({
             once: true,
         });
-    </script> -->
+    </script>
     <!------------------------------ JAVASCRIPT-CODE ------------------------------------------->
     <script>
         $(".multiple-items").slick({
@@ -2998,6 +3011,25 @@
                         },
                     },
                 ],
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $("#scroll-to-top").fadeIn();
+                } else {
+                    $("#scroll-to-top").fadeOut();
+                }
+            });
+            $("#scroll-to-top").click(function () {
+                $("html, body").animate({
+                        scrollTop: 0,
+                    },
+                    40
+                );
+                return false;
             });
         });
     </script>

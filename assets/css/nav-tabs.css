@@ -171,11 +171,12 @@
     font-weight: 700;
     width: 40%;
     font-size: var(--fs-xmd);
+    padding-top: 5px;
 }
 
 .input-btn input {
     color: var(--color-white);
-    padding: 8px 28px;
+    padding: 6px 28px;
     width: 60%;
     font-size: var(--fs-xmd);
 }
@@ -202,6 +203,10 @@
 .copy-right {
     font-size: 12px;
     opacity: .5;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden !important;
 }
 
 /* BLACK-NFT-CARD-SECTION */

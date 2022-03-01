@@ -2,6 +2,7 @@
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  overflow-x: hidden !important;
 }
 
 .font-playfir {
@@ -25,12 +26,7 @@ body {
 
 /*====================================== Media-queries-start ======================================== */
 
-@media (min-width: 1440.98px) and (max-width: 1920.98px) {
-  .hero-section {
-    border-radius: 25px;
-    min-height: 60vh !important;
-  }
-}
+
 
 @media (max-width: 1499.98px) {
   :root {
@@ -100,9 +96,6 @@ body {
     --fs-xxl: 40px;
   }
 
-  .hero-section {
-    min-height: 60vh !important;
-  }
 
   .h-258 {
     height: 204px !important;
@@ -250,6 +243,11 @@ body {
 
 .opacity-7 {
   opacity: 70%;
+}
+
+.navbar-btn {
+  background-color: #fff !important;
+  color: #000 !important;
 }
 
 /* ================================== COMMON CLASS END ================================================== */
@@ -425,10 +423,10 @@ input:focus-visible {
 
 .navbar-wrapper .nav-items-list a:after {
   background: none repeat scroll 0 0 transparent;
-  bottom: -14px;
+  bottom: -10px;
   content: "";
   display: block;
-  height: 4px;
+  height: 2px;
   left: 50%;
   position: absolute;
   background: var(--black);
@@ -810,8 +808,12 @@ a {
   border-radius: 25px;
   background-position: center;
   background-size: cover;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   background-image: url('../images/png/hero-bg.png');
+}
+
+.hero-img {
+  max-width: 300px;
 }
 
 .hero-heading {
@@ -832,6 +834,12 @@ a {
   width: 100%;
   max-width: 250px;
   margin: 0 7px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.nft-card:hover {
+  transform: translateY(-7px);
 }
 
 .buy-btn {
@@ -860,4 +868,56 @@ a {
   height: 239px;
 }
 
+.nft-img {
+  max-width: 230px;
+}
+
+.w-lg-75 {
+  width: 75% !important;
+}
+
 /* CAROSUEL-CSS-END */
+@media (max-width:1599.98px) {
+  .hero-img {
+    max-width: 200px;
+  }
+
+}
+
+#scroll-to-top {
+  position: fixed;
+  z-index: 2;
+  right: 20px;
+  top: 88%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  animation: moves 2s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes moves {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#scroll:hover {
+  opacity: 0.8;
+  box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.09);
+}
