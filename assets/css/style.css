@@ -3,9 +3,11 @@
 body {
   font-family: "Josefin Sans", sans-serif;
 }
+
 .font-playfir {
   font-family: "Playfair Display", serif;
 }
+
 :root {
   /*================================== FONT-SIZES ================================================ */
   --fs-xsm: 14px;
@@ -23,8 +25,7 @@ body {
 
 /*====================================== Media-queries-start ======================================== */
 
-@media (min-width: 1499.98px) and (max-width: 1699.98px) {
-}
+@media (min-width: 1499.98px) and (max-width: 1699.98px) {}
 
 @media (max-width: 1499.98px) {
   :root {
@@ -104,28 +105,56 @@ body {
   }
 }
 
+@media (max-width: 375.98px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-xmd: 18px;
+    --fs-md: 20px;
+    --fs-xlg: 24px;
+    --fs-lg: 36px;
+    --fs-xl: 50px;
+    --fs-xxl: 64px;
+  }
+
+  .nav-logo {
+    width: 60px;
+  }
+
+  .search-input {
+    width: 173px;
+  }
+}
+
 /*====================================== Media-queries-end =========================================== */
 .fs-xsm {
   font-size: var(--fs-xsm) !important;
 }
+
 .fs-sm {
   font-size: var(--fs-sm) !important;
 }
+
 .fs-xmd {
   font-size: var(--fs-xmd) !important;
 }
+
 .fs-md {
   font-size: var(--fs-md) !important;
 }
+
 .fs-xlg {
   font-size: var(--fs-xlg) !important;
 }
+
 .fs-lg {
   font-size: var(--fs-lg) !important;
 }
+
 .fs-xl {
   font-size: var(--fs-xl) !important;
 }
+
 .fs-xxl {
   font-size: var(--fs-xxl) !important;
 }
@@ -180,6 +209,7 @@ body {
   font-weight: 600;
   color: var(--black);
 }
+
 .middium-heading {
   font-size: var(--fs-lg);
   font-weight: 600;
@@ -197,12 +227,15 @@ body {
   font-weight: 700;
   color: var(--white);
 }
+
 .common-btn:hover {
   opacity: 0.8;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
+
 .opacity-7 {
   opacity: 70%;
 }
@@ -252,30 +285,7 @@ body {
 }
 
 /* ===================================CAROUSEL-CSS-ENDS ==================================================*/
-/* ===================================ROADMAP-CSS-START ==================================================*/
-.roadmap-circle {
-  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(192, 139, 66, 1);
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
 
-.loadmap-line {
-  width: 6px;
-  height: 100%;
-  background-color: rgba(192, 139, 66, 1);
-}
-
-.w-66 {
-  width: 66%;
-}
-
-.w-55 {
-  width: 55%;
-}
-
-/* ===================================ROADMAP-CSS-ENDS ==================================================*/
 /* =====================================NAVBAR-CSS======================== */
 /* SCROLL TOP CSS START */
 .header-icons img {
@@ -341,6 +351,14 @@ body {
 }
 
 /* NAVBAR-CSS */
+.search-input {
+  border: 1px solid rgba(0, 0, 0, 1)
+}
+
+input:focus-visible {
+  outline-offset: -20px;
+}
+
 .navbar-wrapper .navbar-btns button:hover {
   background-color: transparent;
   color: #0ed145;
@@ -355,12 +373,10 @@ body {
 }
 
 .button {
-  background: linear-gradient(
-    202.45deg,
-    #ebbf97 36.95%,
-    #ad8f59 51.81%,
-    #98683b 79.59%
-  );
+  background: linear-gradient(202.45deg,
+      #ebbf97 36.95%,
+      #ad8f59 51.81%,
+      #98683b 79.59%);
   border-radius: 55px;
   display: inline-block;
   font-size: 20px;
@@ -381,6 +397,7 @@ body {
   font-weight: 600;
   color: var(--black);
   position: relative;
+  opacity: 60%;
 }
 
 .navbar-wrapper .nav-items-list a:hover {
@@ -740,6 +757,7 @@ a {
 }
 
 @media (min-width: 576px) {
+
   .left li a,
   .right li a {
     font-size: 40px;
