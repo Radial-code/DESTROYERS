@@ -5,7 +5,7 @@ body {
 }
 
 .font-playfir {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
 }
 
 :root {
@@ -25,7 +25,12 @@ body {
 
 /*====================================== Media-queries-start ======================================== */
 
-@media (min-width: 1499.98px) and (max-width: 1699.98px) {}
+@media (min-width: 1440.98px) and (max-width: 1920.98px) {
+  .hero-section {
+    border-radius: 25px;
+    min-height: 60vh !important;
+  }
+}
 
 @media (max-width: 1499.98px) {
   :root {
@@ -75,7 +80,7 @@ body {
     --fs-xlg: 24px;
     --fs-lg: 36px;
     --fs-xl: 50px;
-    --fs-xxl: 64px;
+    --fs-xxl: 46px;
   }
 }
 
@@ -88,7 +93,11 @@ body {
     --fs-xlg: 24px;
     --fs-lg: 36px;
     --fs-xl: 50px;
-    --fs-xxl: 64px;
+    --fs-xxl: 40px;
+  }
+
+  .hero-section {
+    min-height: 60vh !important;
   }
 }
 
@@ -101,7 +110,7 @@ body {
     --fs-xlg: 24px;
     --fs-lg: 36px;
     --fs-xl: 50px;
-    --fs-xxl: 64px;
+    --fs-xxl: 30px;
   }
 }
 
@@ -114,7 +123,7 @@ body {
     --fs-xlg: 24px;
     --fs-lg: 36px;
     --fs-xl: 50px;
-    --fs-xxl: 64px;
+    --fs-xxl: 20px;
   }
 
   .nav-logo {
@@ -188,11 +197,6 @@ body {
 }
 
 /* ================================== COMMON CLASS START  ================================================== */
-.side-heading {
-  font-size: var(--font-xxl);
-  font-weight: 900;
-}
-
 .heading {
   font-size: var(--fs-xxl);
   font-weight: 600;
@@ -793,3 +797,21 @@ a {
 }
 
 /* NAVBAR-CSS-END */
+/* HERO-CSS- */
+.hero-section {
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  background-image: url('../images/png/hero-bg.png');
+}
+
+.hero-heading {
+  letter-spacing: 3px;
+}
+
+.mw-w-600 {
+  max-width: 600px;
+}
+
+/* HERO-CSS-END */
