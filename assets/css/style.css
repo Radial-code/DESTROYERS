@@ -82,6 +82,10 @@ body {
     --fs-xl: 50px;
     --fs-xxl: 46px;
   }
+
+  .h-258 {
+    height: 255px !important;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -98,6 +102,10 @@ body {
 
   .hero-section {
     min-height: 60vh !important;
+  }
+
+  .h-258 {
+    height: 204px !important;
   }
 }
 
@@ -121,7 +129,7 @@ body {
     --fs-xmd: 18px;
     --fs-md: 17px;
     --fs-xlg: 24px;
-    --fs-lg: 36px;
+    --fs-lg: 27px;
     --fs-xl: 22px;
     --fs-xxl: 20px;
   }
@@ -250,33 +258,35 @@ body {
   background: rgba(234, 236, 235, 1);
 }
 
-#previous-icon {
-  position: absolute;
-  left: -100px;
-  top: 34%;
-  background-image: url("../images/svg/prev.svg");
-  background-repeat: no-repeat;
-  width: 57px;
-  height: 57px;
-  background-size: cover;
-  border: 1px solid var(--yellow);
-}
-
-#next-icon {
-  background-image: url("../images/svg/next.svg");
-  position: absolute;
-  right: -100px;
-  top: 34%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 55px;
-  height: 55px;
-  border: 1px solid var(--yellow);
-}
-
-.slick-dots li button:before {
+.slick-next:before,
+.slick-prev:before .slick-dots li button:before {
   color: rgba(192, 139, 66, 1) !important;
   font-size: 16px !important;
+}
+
+.slick-prev:before {
+  width: 34px;
+  height: 47px;
+  background-repeat: no-repeat;
+  background-image: url('../images/svg/prev.svg');
+}
+
+.slick-next:before {
+  width: 34px;
+  height: 47px;
+  background-repeat: no-repeat;
+  background-image: url('../images/svg/next-arrow.svg');
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: slick;
+  font-size: 22px;
+  line-height: 1;
+  opacity: .75;
+  color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
@@ -405,9 +415,7 @@ input:focus-visible {
 }
 
 .navbar-wrapper .nav-items-list a:hover {
-  background: linear-gradient(123.61deg, #c5995d 7.36%, #bd8334 90.8%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--black);
 }
 
 .px-32 {
@@ -423,7 +431,7 @@ input:focus-visible {
   height: 4px;
   left: 50%;
   position: absolute;
-  background: linear-gradient(123.61deg, #c5995d 7.36%, #bd8334 90.8%);
+  background: var(--black);
   -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
@@ -830,4 +838,24 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.46)
 }
 
+.explor-nft {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.05)
+}
+
 /* NFT-CSS-END */
+
+/* CAROSUEL-CSS */
+.carousel-card {
+  width: 92% !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+
+.h-258 {
+  height: 239px;
+}
+
+/* CAROSUEL-CSS-END */
