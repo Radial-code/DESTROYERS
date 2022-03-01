@@ -63,7 +63,7 @@ body {
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-xmd: 18px;
-    --fs-md: 20px;
+    --fs-md: 16px;
     --fs-xlg: 24px;
     --fs-lg: 36px;
     --fs-xl: 50px;
@@ -92,7 +92,7 @@ body {
     --fs-md: 20px;
     --fs-xlg: 24px;
     --fs-lg: 36px;
-    --fs-xl: 50px;
+    --fs-xl: 33px;
     --fs-xxl: 40px;
   }
 
@@ -109,7 +109,7 @@ body {
     --fs-md: 20px;
     --fs-xlg: 24px;
     --fs-lg: 36px;
-    --fs-xl: 50px;
+    --fs-xl: 25px;
     --fs-xxl: 30px;
   }
 }
@@ -119,10 +119,10 @@ body {
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-xmd: 18px;
-    --fs-md: 20px;
+    --fs-md: 17px;
     --fs-xlg: 24px;
     --fs-lg: 36px;
-    --fs-xl: 50px;
+    --fs-xl: 22px;
     --fs-xxl: 20px;
   }
 
@@ -797,7 +797,7 @@ a {
 }
 
 /* NAVBAR-CSS-END */
-/* HERO-CSS- */
+/* HERO-CSS */
 .hero-section {
   border-radius: 25px;
   background-position: center;
@@ -815,3 +815,19 @@ a {
 }
 
 /* HERO-CSS-END */
+
+/* NFT-CSS */
+.nft-card {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.buy-btn {
+  color: rgba(0, 0, 0, 1);
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.46)
+}
+
+/* NFT-CSS-END */
