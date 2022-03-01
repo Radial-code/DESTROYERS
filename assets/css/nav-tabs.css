@@ -144,11 +144,11 @@
     border-radius: 50%;
 }
 
-.svg-icon {
+.svg-icon svg {
     transition: all .3s ease-in-out;
 }
 
-.svg-icon:hover {
+.svg-icon:hover svg {
     transform: translateY(-5px);
 }
 
